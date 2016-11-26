@@ -31,6 +31,7 @@ li {
   background-color: #fff0e4;
   width: 1300px;
   height: 1200px;
+  padding: 80px;
 }
 
 .copy-container h1 {
@@ -43,12 +44,6 @@ li {
 
 .copy-container span {
   color: #a951ed;
-}
-
-/* contentsの上部のmarginを100px、高さを750pxにしてください */
-.contents {
-  margin-top: 100px;
-  height: 750px;
 }
 
 .footer {
