@@ -1,0 +1,54 @@
+li {
+  list-style: none;
+}
+
+.header {
+  height: 90px;
+  border-bottom: 1px solid #dee7ec;
+}
+
+.header-left {
+  float: left;
+  font-size: 32px;
+  padding: 20px 30px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float: left;
+  padding: 33px 30px;
+}
+
+.selected {
+  color: #fff;
+  background-color: #262c30;
+}
+
+.main {
+  background-color: #fff0e4;
+  width: 1300px;
+  height: 1200px;
+}
+
+/* copy-containerの中の<h1>の文字サイズを140pxにしてください */
+.copy-container h1 {
+  font-size: 140px;
+}
+
+/* copy-containerの中の<h2>の文字サイズを74pxにしてください */
+.copy-container h2 {
+  font-size: 74px;
+}
+
+/* copy-containerの中の<span>の文字の色を#a951edにしてください */
+.copy-container span {
+  color: #a951ed;
+}
+
+.footer {
+  background-color: #fcffc0;
+  height: 100px;
+}

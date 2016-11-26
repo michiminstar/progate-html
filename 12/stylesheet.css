@@ -1,0 +1,43 @@
+li {
+  list-style: none;
+}
+
+.header {
+  /* background-colorの指定を消してください */
+
+  height: 90px;
+  border-bottom: 1px solid #dee7ec;
+}
+
+.header-left {
+  float: left;
+  font-size: 32px;
+  padding: 20px 30px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float: left;
+  /* 上下のpadding33px、左右のpaddingを30pxにしてください */
+  padding: 33px 30px;
+}
+
+/* selectedの文字の色を#fffに、背景色を#262c30にしてください */
+.selected {
+  color: #fff;
+  background-color: #262c30;
+}
+
+.main {
+  background-color: #fff0e4;
+  width: 1300px;
+  height: 1200px;
+}
+
+.footer {
+  background-color: #fcffc0;
+  height: 100px;
+}
