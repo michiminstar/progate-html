@@ -40,10 +40,16 @@ li {
 
 .copy-container h2 {
   font-size: 74px;
+  margin-bottom: 100px;
 }
 
 .copy-container span {
   color: #a951ed;
+}
+
+.contact-form {
+  background-color: #f0f8ff;
+  height: 400px;
 }
 
 .footer {
