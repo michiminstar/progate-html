@@ -23,8 +23,6 @@ li {
 
 .header-right li {
   float: left;
-  /* 上下のpadding33px、左右のpaddingを30pxにしてください */
-  padding: 33px 30px;
 }
 
 .main {
