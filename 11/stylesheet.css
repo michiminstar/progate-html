@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #daffe7;
+  height: 90px;
+  /* 太さ1px、種類solid、色#dee7ecのborder-bottomをつけてください */
+  border-bottom: 1px solid #dee7ec;
+}
+
+.header-left {
+  float: left;
+  /* 上下のpaddingを20px、左右のpaddingを30pxにしてください */
+  padding: 20px 30px;
+  /* 文字のサイズを32pxにしてください */
+  font-size: 32px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float: left;
+}
+
+.main {
+  background-color: #fff0e4;
+  width: 1300px;
+  height: 1200px;
+}
+
+.footer {
+  background-color: #fcffc0;
+  height: 100px;
+}
+
+

@@ -1,0 +1,24 @@
+/* 共通のCSSを設定 */
+/* MEMO: ここはreset.cssに追加する感じでいいかも */
+body {
+  color: #474f57;
+}
+
+/* headerの背景色を#daffe7、高さを90pxにしてください */
+.header {
+  background-color: #daffe7;
+  height: 90px;
+}
+
+/* mainの背景色を#fff0e4、幅を1300px、高さを1200pxにしてください */
+.main {
+  background-color: #fff0e4;
+  width: 1300px;
+  height: 1200px;
+}
+
+/* 背景色を#fcffc0、高さを100px にしてください */
+.footer {
+  background-color: #fcffc0;
+  height: 100px;
+}
