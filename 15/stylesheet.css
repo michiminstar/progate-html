@@ -1,0 +1,86 @@
+li {
+  list-style: none;
+}
+
+.header {
+  height: 90px;
+  border-bottom: 1px solid #dee7ec;
+}
+
+.header-left {
+  float: left;
+  font-size: 32px;
+  padding: 20px 30px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float: left;
+  padding: 33px 30px;
+}
+
+.selected {
+  color: #fff;
+  background-color: #262c30;
+}
+
+.main {
+  background-color: #fff0e4;
+  width: 1300px;
+  height: 1200px;
+  padding: 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 74px;
+  margin-bottom: 100px;
+}
+
+.copy-container span {
+  color: #a951ed;
+}
+
+/* contentsの中の<span>の文字のサイズを30px、border-bottomを太さ5px、種類solid、色#fcf113にしてください */
+.contents span {
+  font-size: 30px;
+  border-bottom: 5px solid #fcf113;
+}
+
+/* contents-topの高さを320pxにしてください */
+.contents-top {
+  height: 320px;
+}
+
+/* contents-top-textのfloatプロパティをleftにしてください */
+.contents-top-text {
+  float: left;
+}
+
+/* contents-top-textの中にある<p>の幅を500px、上のmarginを20px、文字のサイズを18pxにしてください */
+.contents-top-text p {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* contents-topの中にある<img>のfloatプロパティをrightにしてください */
+.contents-top img {
+  float: right;
+}
+
+.contact-form {
+  background-color: #f0f8ff;
+  height: 400px;
+}
+
+.footer {
+  background-color: #fcffc0;
+  height: 100px;
+}
