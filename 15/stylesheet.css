@@ -63,10 +63,10 @@ li {
   float: left;
 }
 
-/* contents-top-textの中にある<p>の幅を500px、上のmarginを20px、文字のサイズを18pxにしてください */
+/* contents-top-textの中にある<p>の幅を500px、上のmarginを50px、文字のサイズを18pxにしてください */
 .contents-top-text p {
   width: 500px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 18px;
 }
 

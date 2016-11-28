@@ -64,7 +64,7 @@ li {
 
 .contents-top-text p {
   width: 500px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 18px;
 }
 
@@ -91,6 +91,7 @@ li {
   padding-top: 100px;
 }
 
+/* contact-formの中の<h3>の下のmarginを50px、文字のサイズを30pxにしてください */
 .contact-form h3 {
   margin-bottom: 30px;
   font-size: 30px;
