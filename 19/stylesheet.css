@@ -85,8 +85,7 @@ li {
 
 .contact-form {
   /* 背景色と高さを削除してください */
-  background-color: #f0f8ff;
-  height: 500px;
+
   clear: left;
   padding-top: 100px;
 }
