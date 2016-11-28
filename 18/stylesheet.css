@@ -101,21 +101,20 @@ li {
 
 /* contact-formの中の<input>と<textarea>タグに共通のCSSを追加してください */
 .contact-form input, .contact-form textarea {
+  width: 400px;
   margin-bottom: 40px;
-  padding: 8px 20px;
+  padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
 
-/* contact-emailの幅を400px、高さを60pxにしてください */
+/* contact-emailの高さを60pxにしてください */
 .contact-email {
-  width: 400px;
   height: 60px;
 }
 
-/* contact-bodyの幅を400px、高さを100pxにしてください */
+/* contact-bodyの高さを100pxにしてください */
 .contact-body {
-  width: 400px;
   height: 100px;
 }
 
