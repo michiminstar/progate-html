@@ -84,8 +84,6 @@ li {
 }
 
 .contact-form {
-  background-color: #f0f8ff;
-  height: 500px;
   clear: left;
   /* contact-formの上のpaddingを100pxにしてください */
   padding-top: 100px;
