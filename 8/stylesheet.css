@@ -17,12 +17,6 @@ body {
   height: 1200px;
 }
 
-/* contact-formの背景色を#f0f8ff、高さを500pxにしてください */
-.contact-form {
-  background-color: #f0f8ff;
-  height: 500px;
-}
-
 /* footerの背景色を#fcffc0、高さを100px にしてください */
 .footer {
   background-color: #fcffc0;
