@@ -3,55 +3,37 @@ li {
 }
 
 .header {
+  /* background-colorの指定を消してください */
+
   height: 90px;
+  /* 太さ1px、種類solid、色#dee7ecのborder-bottomをつけてください */
   border-bottom: 1px solid #dee7ec;
 }
 
 .header-left {
   float: left;
   font-size: 32px;
+  /* 上下のpaddingを20px、左右のpaddingを30pxにしてください */
   padding: 20px 30px;
+}
+
+li {
+  float: left;
+  /* 上下のpaddingを33px、左右のpaddingを30pxにしてください */
+  padding: 33px 30px;
 }
 
 .header-right {
   float: right;
 }
 
-.header-right li {
-  float: left;
-  padding: 33px 30px;
-}
-
-.selected {
-  color: #fff;
-  background-color: #262c30;
-}
-
 .main {
-  background-color: #fff0e4;
+  background-color: #bdf7f1;
   width: 1300px;
   height: 1200px;
-  /* 上下左右のpaddingを80pxにしてください */
-  padding: 80px;
-}
-
-/* copy-containerの中の<h1>の文字サイズを140pxにしてください */
-.copy-container h1 {
-  font-size: 140px;
-}
-
-/* copy-containerの中の<h2>の文字サイズを74pxに、下のmarginを100pxにしてください */
-.copy-container h2 {
-  font-size: 74px;
-  margin-bottom: 100px;
-}
-
-/* copy-containerの中の<span>の文字の色を#a951edにしてください */
-.copy-container span {
-  color: #a951ed;
 }
 
 .footer {
-  background-color: #fcffc0;
-  height: 100px;
+  background-color: #ceccf3;
+  height: 270px;
 }
