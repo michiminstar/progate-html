@@ -13,41 +13,37 @@ li {
   padding: 20px 30px;
 }
 
-.header-right {
-  float: right;
-}
-
+/* header-rightの中の<li>に対して以下のCSSが適用されるようにしてください */
 .header-right li {
   float: left;
   padding: 33px 30px;
 }
 
-.selected {
-  color: #fff;
-  background-color: #262c30;
+.header-right {
+  float: right;
 }
 
 .main {
-  background-color: #fff0e4;
+  background-color: #bdf7f1;
   width: 1300px;
   height: 1200px;
-  padding: 80px;
-}
-
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container h2 {
-  font-size: 74px;
-  margin-bottom: 100px;
-}
-
-.copy-container span {
-  color: #a951ed;
 }
 
 .footer {
-  background-color: #fcffc0;
-  height: 100px;
+  /* 背景色を#262c30に書き換えてください */
+  background-color: #262c30;
+  /* 文字の色を#fffにしてください */
+  color: #fff;
+  height: 270px;
+}
+
+/* footer-logoの上のpaddingを40px、左右のpaddingを30px、下のpaddingを15pxにし、文字のサイズを32pxにしてください */
+.footer-logo {
+  padding: 40px 30px 15px 30px;
+  font-size: 32px;
+}
+
+/* footer-listの中の<li>の上下のpaddingを10px、左右のpaddingを30pxにしてください */
+.footer-list li {
+  padding: 10px 30px;
 }
