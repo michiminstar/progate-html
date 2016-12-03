@@ -3,41 +3,33 @@ li {
 }
 
 .header {
-  /* background-colorの指定を消してください */
-
+  background-color: #f7f2b4;
   height: 90px;
-  border-bottom: 1px solid #dee7ec;
 }
 
+/* header-leftのfloatプロパティをleftにし、文字のサイズを32pxにしてください */
 .header-left {
   float: left;
   font-size: 32px;
-  padding: 20px 30px;
 }
 
+/* <li>のfloatプロパティをleftにしてください */
+li {
+  float: left;
+}
+
+/* header-rightのfloatプロパティをrightにしてください */
 .header-right {
   float: right;
 }
 
-.header-right li {
-  float: left;
-  /* 上下のpadding33px、左右のpaddingを30pxにしてください */
-  padding: 33px 30px;
-}
-
-/* selectedの文字の色を#fffに、背景色を#262c30にしてください */
-.selected {
-  color: #fff;
-  background-color: #262c30;
-}
-
 .main {
-  background-color: #fff0e4;
+  background-color: #bdf7f1;
   width: 1300px;
   height: 1200px;
 }
 
 .footer {
-  background-color: #fcffc0;
-  height: 100px;
+  background-color: #ceccf3;
+  height: 270px;
 }
