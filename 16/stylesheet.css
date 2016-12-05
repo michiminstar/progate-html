@@ -13,26 +13,19 @@ li {
   padding: 20px 30px;
 }
 
-.header-right {
-  float: right;
-}
-
 .header-right li {
   float: left;
   padding: 33px 30px;
 }
 
-.selected {
-  color: #fff;
-  background-color: #262c30;
+.header-right {
+  float: right;
 }
 
 .main {
-  /* background-colorの指定を削除してください */
-
+  background-color: #bdf7f1;
   width: 1300px;
-  /* heightの指定を削除してください */
-
+  height: 600px;
   padding: 80px;
 }
 
@@ -49,52 +42,17 @@ li {
   color: #a951ed;
 }
 
-.contents {
-  margin-top: 100px;
-}
-
-.contents span {
-  font-size: 30px;
-  border-bottom: 5px solid #fcf113;
-}
-
-.contents-top {
-  height: 320px;
-}
-
-.contents-top-text {
-  float: left;
-}
-
-.contents-top-text p {
-  width: 500px;
-  margin-top: 50px;
-  font-size: 18px;
-}
-
-.contents-top img {
-  float: right;
-}
-
-/* contents-bottom-itemの幅を400px、floatプロパティをleft、上と右のpaddingを30pxにしてください */
-.contents-bottom-item {
-  width: 400px;
-  float: left;
-  padding: 50px 30px 0 0;
-}
-
-/* contents-bottom-itemの中の<p>の文字のサイズを28px、上のmarginを38pxにしてください */
-.contents-bottom-item p {
-  font-size: 28px;
-  margin-top: 30px;
-}
-
-.contact-form {
-  /* contact-formのclearプロパティをleftにしてください */
-  clear: left;
-}
-
 .footer {
-  background-color: #fcffc0;
-  height: 100px;
+  background-color: #262c30;
+  color: #fff;
+  height: 270px;
+}
+
+.footer-logo {
+  padding: 40px 30px 15px 30px;
+  font-size: 32px;
+}
+
+.footer-list li {
+  padding: 10px 30px;
 }
