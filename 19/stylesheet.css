@@ -97,6 +97,7 @@ li {
   margin-bottom: 10px;
 }
 
+/* contact-formの中の<input>と<textarea>タグに共通のCSSを追加してください */
 .contact-form input, .contact-form textarea {
   width: 400px;
   margin-bottom: 40px;
@@ -105,21 +106,17 @@ li {
   border: 1px solid #dee7ec;
 }
 
+/* contact-emailの高さを60pxにしてください */
 .contact-email {
   height: 60px;
 }
 
+/* contact-bodyの高さを100pxにしてください */
 .contact-body {
   height: 100px;
 }
 
-/* 送信ボタンの背景色を#dee7ecに、文字の色を#889eabにしてください */
-.contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
-}
-
 .footer {
-  background-color: #fcffc0;
+  background-color: #ceccf3;
   height: 100px;
 }

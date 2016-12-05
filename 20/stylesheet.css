@@ -113,12 +113,13 @@ li {
   height: 100px;
 }
 
+/* 送信ボタンの背景色を#dee7ecに、文字の色を#889eabにしてください */
 .contact-submit {
   background-color: #dee7ec;
   color: #889eab;
 }
 
 .footer {
-  background-color: #fcffc0;
+  background-color: #ceccf3;
   height: 100px;
 }
