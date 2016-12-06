@@ -7,22 +7,6 @@ li {
   height: 90px;
 }
 
-/* header-leftのfloatプロパティをleftにし、文字のサイズを32pxにしてください */
-.header-left {
-  float: left;
-  font-size: 32px;
-}
-
-/* <li>のfloatプロパティをleftにしてください */
-li {
-  float: left;
-}
-
-/* header-rightのfloatプロパティをrightにしてください */
-.header-right {
-  float: right;
-}
-
 .main {
   background-color: #bdf7f1;
   width: 1300px;
