@@ -3,23 +3,19 @@ li {
 }
 
 .header {
-  /* background-colorの指定を消してください */
-
   height: 90px;
-  /* 太さ1px、種類solid、色#dee7ecのborder-bottomをつけてください */
   border-bottom: 1px solid #dee7ec;
 }
 
 .header-left {
   float: left;
   font-size: 32px;
-  /* 上下のpaddingを20px、左右のpaddingを30pxにしてください */
   padding: 20px 30px;
 }
 
-li {
+/* header-rightの中の<li>に対して以下のCSSが適用されるようにしてください */
+.header-right li {
   float: left;
-  /* 上下のpaddingを33px、左右のpaddingを30pxにしてください */
   padding: 33px 30px;
 }
 
@@ -34,6 +30,20 @@ li {
 }
 
 .footer {
-  background-color: #ceccf3;
+  /* 背景色を#262c30に書き換えてください */
+  background-color: #262c30;
+  /* 文字の色を#fffにしてください */
+  color: #fff;
   height: 270px;
+}
+
+/* footer-logoの上のpaddingを40px、左右のpaddingを30px、下のpaddingを15pxにし、文字のサイズを32pxにしてください */
+.footer-logo {
+  padding: 40px 30px 15px 30px;
+  font-size: 32px;
+}
+
+/* footer-listの中の<li>の上下のpaddingを10px、左右のpaddingを30pxにしてください */
+.footer-list li {
+  padding: 10px 30px;
 }

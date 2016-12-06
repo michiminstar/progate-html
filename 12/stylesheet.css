@@ -1,4 +1,3 @@
-/* list-styleプロパティを用いて、全体のliの黒点を取り除いてください */
 li {
   list-style: none;
 }
@@ -6,6 +5,22 @@ li {
 .header {
   background-color: #f7f2b4;
   height: 90px;
+}
+
+/* header-leftのfloatプロパティをleftにし、文字のサイズを32pxにしてください */
+.header-left {
+  float: left;
+  font-size: 32px;
+}
+
+/* <li>のfloatプロパティをleftにしてください */
+li {
+  float: left;
+}
+
+/* header-rightのfloatプロパティをrightにしてください */
+.header-right {
+  float: right;
 }
 
 .main {

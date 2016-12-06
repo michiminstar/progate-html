@@ -28,9 +28,7 @@ li {
 }
 
 .main {
-  background-color: #bdf7f1;
   width: 1300px;
-  height: 600px;
   padding: 80px;
 }
 
@@ -47,28 +45,58 @@ li {
   color: #a951ed;
 }
 
-/* contentsの中の<span>の文字のサイズを30px、border-bottomを太さ5px、種類solid、色#fcf113にしてください */
+.contents {
+  margin-top: 100px;
+}
+
 .contents span {
   font-size: 30px;
   border-bottom: 5px solid #fcf113;
 }
 
-/* contents-bottom-itemの幅を400px、floatプロパティをleft、上と右のpaddingを30pxにしてください */
+.contents-top {
+  height: 320px;
+}
+
+.contents-top-text {
+  float: left;
+}
+
+.contents-top-text p {
+  width: 500px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.contents-top img {
+  float: right;
+}
+
 .contents-bottom-item {
   width: 400px;
   float: left;
   padding: 50px 30px 0 0;
 }
 
-/* contents-bottom-itemの中の<p>の文字のサイズを28px、上のmarginを38pxにしてください */
 .contents-bottom-item p {
   font-size: 28px;
   margin-top: 30px;
 }
 
 .contact-form {
-  /* contact-formのclearプロパティをleftにしてください */
   clear: left;
+  /* contact-formの上のpaddingを100pxにしてください */
+  padding-top: 100px;
+}
+
+/* contact-formの中の<h3>の下のmarginを50px、文字のサイズを30pxにしてください */
+.contact-form h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.contact-form p {
+  margin-bottom: 10px;
 }
 
 .footer {

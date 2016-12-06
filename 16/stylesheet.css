@@ -26,22 +26,18 @@ li {
   background-color: #bdf7f1;
   width: 1300px;
   height: 600px;
-  /* 上下左右のpaddingを80pxにしてください */
   padding: 80px;
 }
 
-/* copy-containerの中の<h1>の文字サイズを140pxにしてください */
 .copy-container h1 {
   font-size: 140px;
 }
 
-/* copy-containerの中の<h2>の文字サイズを74pxに、下のmarginを100pxにしてください */
 .copy-container h2 {
   font-size: 74px;
   margin-bottom: 100px;
 }
 
-/* copy-containerの中の<span>の文字の色を#a951edにしてください */
 .copy-container span {
   color: #a951ed;
 }

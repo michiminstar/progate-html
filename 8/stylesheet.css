@@ -1,12 +1,7 @@
-h1 {
-  color: #E6855E;
-  font-size: 30px;
-  background-color: #F3F372;
-  height: 80px;
-  width: 500px;
+li {
+  color: #444;
 }
 
-img {
-  height: 50px;
-  width: 70px;
+.selected {
+  color: #f00;
 }
