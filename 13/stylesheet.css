@@ -3,24 +3,17 @@ li {
 }
 
 .header {
-  /* background-colorの指定を消してください */
-
+  background-color: #f7f2b4;
   height: 90px;
-  /* 太さ1px、種類solid、色#dee7ecのborder-bottomをつけてください */
-  border-bottom: 1px solid #dee7ec;
 }
 
 .header-left {
   float: left;
   font-size: 32px;
-  /* 上下のpaddingを20px、左右のpaddingを30pxにしてください */
-  padding: 20px 30px;
 }
 
 li {
   float: left;
-  /* 上下のpaddingを33px、左右のpaddingを30pxにしてください */
-  padding: 33px 30px;
 }
 
 .header-right {
