@@ -66,39 +66,6 @@ li {
   margin-top: 30px;
 }
 
-.contact-form {
-  clear: left;
-  padding-top: 100px;
-}
-
-.contact-form h3 {
-  margin-bottom: 30px;
-  font-size: 30px;
-}
-
-.contact-form p {
-  margin-bottom: 10px;
-}
-
-/* contact-formの中の<input>と<textarea>タグに共通のCSSを追加してください */
-.contact-form input, .contact-form textarea {
-  width: 400px;
-  margin-bottom: 40px;
-  padding: 20px;
-  font-size: 18px;
-  border: 1px solid #dee7ec;
-}
-
-/* contact-emailの高さを60pxにしてください */
-.contact-email {
-  height: 60px;
-}
-
-/* contact-bodyの高さを100pxにしてください */
-.contact-body {
-  height: 100px;
-}
-
 .footer {
   background-color: #ceccf3;
   height: 100px;
